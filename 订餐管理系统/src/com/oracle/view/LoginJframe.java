@@ -81,8 +81,8 @@ public class LoginJframe extends JFrame {
 		JButton btnNewButton_2 = new JButton("重置");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				userNameTxt.setText("");
-				passwordTxt.setText("");
+				userNameTxt.setText(" ");
+				passwordTxt.setText(" ");
 			}
 		});
 		btnNewButton_2.setBounds(307, 186, 91, 26);
