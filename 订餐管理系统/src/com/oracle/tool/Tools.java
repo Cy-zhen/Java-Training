@@ -1,19 +1,16 @@
 package com.oracle.tool;
 
 public class Tools {
-	/*
-	 * åˆ¤æ–­å­—ç¬¦æ˜¯å¦ä¸ºç©º
+	/**
+	 * ÅĞ¶Ï×Ö·û´®ÊÇ·ñÊÇ¿Õ
 	 * @param str
 	 * @return
 	 */
 	public boolean isEmpty(String str) {
-		if(str == null || str.equals("")) {
+		if (str==null||str.equals("")) {
 			return true;
-		}else {
-			return false;
 		}
-		
+		return false;
 	}
-
 
 }
